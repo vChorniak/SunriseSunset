@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD949743730A11F814E7740 /* libPods-SunriseSunset.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7213247467FD6FCA3640A79C /* libPods-SunriseSunset.a */; };
+		CE361F5D215E62CC005BE790 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE361F5C215E62CC005BE790 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		CE3FDBB0215CF24100E6741F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FDBAF215CF24100E6741F /* AppDelegate.m */; };
+		CE3FDBB3215CF24100E6741F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FDBB2215CF24100E6741F /* ViewController.m */; };
+		CE3FDBB6215CF24100E6741F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3FDBB4215CF24100E6741F /* Main.storyboard */; };
+		CE3FDBB8215CF24300E6741F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3FDBB7215CF24300E6741F /* Assets.xcassets */; };
+		CE3FDBBB215CF24300E6741F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3FDBB9215CF24300E6741F /* LaunchScreen.storyboard */; };
+		CE3FDBBE215CF24300E6741F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FDBBD215CF24300E6741F /* main.m */; };
+		CE3FDBC8215CF24400E6741F /* SunriseSunsetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FDBC7215CF24400E6741F /* SunriseSunsetTests.m */; };
+		CE3FDBD3215CF24400E6741F /* SunriseSunsetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3FDBD2215CF24400E6741F /* SunriseSunsetUITests.m */; };
+		CEF9CFE7215E3B7900BFB8A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF9CFE6215E3B7900BFB8A3 /* Default-568h@2x.png */; };
+		CEF9CFE9215E3D8700BFB8A3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF9CFE8215E3D8700BFB8A3 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE3FDBC4215CF24400E6741F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3FDBA3215CF24100E6741F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE3FDBAA215CF24100E6741F;
+			remoteInfo = SunriseSunset;
+		};
+		CE3FDBCF215CF24400E6741F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3FDBA3215CF24100E6741F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE3FDBAA215CF24100E6741F;
+			remoteInfo = SunriseSunset;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26CD7E56ABC35EF172BE65B7 /* Pods-SunriseSunset.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunriseSunset.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunriseSunset/Pods-SunriseSunset.release.xcconfig"; sourceTree = "<group>"; };
+		7213247467FD6FCA3640A79C /* libPods-SunriseSunset.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunriseSunset.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD642B24FB83F118EBE13C58 /* Pods-SunriseSunset.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunriseSunset.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunriseSunset/Pods-SunriseSunset.debug.xcconfig"; sourceTree = "<group>"; };
+		CE361F5C215E62CC005BE790 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CE3FDBAB215CF24100E6741F /* SunriseSunset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunriseSunset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3FDBAE215CF24100E6741F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE3FDBAF215CF24100E6741F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE3FDBB1215CF24100E6741F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE3FDBB2215CF24100E6741F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE3FDBB5215CF24100E6741F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE3FDBB7215CF24300E6741F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE3FDBBA215CF24300E6741F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE3FDBBC215CF24300E6741F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3FDBBD215CF24300E6741F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE3FDBC3215CF24400E6741F /* SunriseSunsetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseSunsetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3FDBC7215CF24400E6741F /* SunriseSunsetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunriseSunsetTests.m; sourceTree = "<group>"; };
+		CE3FDBC9215CF24400E6741F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3FDBCE215CF24400E6741F /* SunriseSunsetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseSunsetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3FDBD2215CF24400E6741F /* SunriseSunsetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunriseSunsetUITests.m; sourceTree = "<group>"; };
+		CE3FDBD4215CF24400E6741F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF9CFE6215E3B7900BFB8A3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEF9CFE8215E3D8700BFB8A3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3FDBA8215CF24100E6741F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE361F5D215E62CC005BE790 /* CoreLocation.framework in Frameworks */,
+				CEF9CFE9215E3D8700BFB8A3 /* MapKit.framework in Frameworks */,
+				8DD949743730A11F814E7740 /* libPods-SunriseSunset.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3FDBC0215CF24400E6741F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3FDBCB215CF24400E6741F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD1847823454ABA246EA748 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD642B24FB83F118EBE13C58 /* Pods-SunriseSunset.debug.xcconfig */,
+				26CD7E56ABC35EF172BE65B7 /* Pods-SunriseSunset.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81DDD6161E64E9C12F0A9E5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE361F5C215E62CC005BE790 /* CoreLocation.framework */,
+				CEF9CFE8215E3D8700BFB8A3 /* MapKit.framework */,
+				7213247467FD6FCA3640A79C /* libPods-SunriseSunset.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3FDBA2215CF24100E6741F = {
+			isa = PBXGroup;
+			children = (
+				CEF9CFE6215E3B7900BFB8A3 /* Default-568h@2x.png */,
+				CE3FDBAD215CF24100E6741F /* SunriseSunset */,
+				CE3FDBC6215CF24400E6741F /* SunriseSunsetTests */,
+				CE3FDBD1215CF24400E6741F /* SunriseSunsetUITests */,
+				CE3FDBAC215CF24100E6741F /* Products */,
+				0BD1847823454ABA246EA748 /* Pods */,
+				81DDD6161E64E9C12F0A9E5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3FDBAC215CF24100E6741F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FDBAB215CF24100E6741F /* SunriseSunset.app */,
+				CE3FDBC3215CF24400E6741F /* SunriseSunsetTests.xctest */,
+				CE3FDBCE215CF24400E6741F /* SunriseSunsetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3FDBAD215CF24100E6741F /* SunriseSunset */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FDBAE215CF24100E6741F /* AppDelegate.h */,
+				CE3FDBAF215CF24100E6741F /* AppDelegate.m */,
+				CE3FDBB1215CF24100E6741F /* ViewController.h */,
+				CE3FDBB2215CF24100E6741F /* ViewController.m */,
+				CE3FDBB4215CF24100E6741F /* Main.storyboard */,
+				CE3FDBB7215CF24300E6741F /* Assets.xcassets */,
+				CE3FDBB9215CF24300E6741F /* LaunchScreen.storyboard */,
+				CE3FDBBC215CF24300E6741F /* Info.plist */,
+				CE3FDBBD215CF24300E6741F /* main.m */,
+			);
+			path = SunriseSunset;
+			sourceTree = "<group>";
+		};
+		CE3FDBC6215CF24400E6741F /* SunriseSunsetTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FDBC7215CF24400E6741F /* SunriseSunsetTests.m */,
+				CE3FDBC9215CF24400E6741F /* Info.plist */,
+			);
+			path = SunriseSunsetTests;
+			sourceTree = "<group>";
+		};
+		CE3FDBD1215CF24400E6741F /* SunriseSunsetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FDBD2215CF24400E6741F /* SunriseSunsetUITests.m */,
+				CE3FDBD4215CF24400E6741F /* Info.plist */,
+			);
+			path = SunriseSunsetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3FDBAA215CF24100E6741F /* SunriseSunset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3FDBD7215CF24400E6741F /* Build configuration list for PBXNativeTarget "SunriseSunset" */;
+			buildPhases = (
+				2E06652905AED365BA0A1C4D /* [CP] Check Pods Manifest.lock */,
+				CE3FDBA7215CF24100E6741F /* Sources */,
+				CE3FDBA8215CF24100E6741F /* Frameworks */,
+				CE3FDBA9215CF24100E6741F /* Resources */,
+				B0B0905A362650E7149D8ADA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunriseSunset;
+			productName = SunriseSunset;
+			productReference = CE3FDBAB215CF24100E6741F /* SunriseSunset.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE3FDBC2215CF24400E6741F /* SunriseSunsetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3FDBDA215CF24400E6741F /* Build configuration list for PBXNativeTarget "SunriseSunsetTests" */;
+			buildPhases = (
+				CE3FDBBF215CF24400E6741F /* Sources */,
+				CE3FDBC0215CF24400E6741F /* Frameworks */,
+				CE3FDBC1215CF24400E6741F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3FDBC5215CF24400E6741F /* PBXTargetDependency */,
+			);
+			name = SunriseSunsetTests;
+			productName = SunriseSunsetTests;
+			productReference = CE3FDBC3215CF24400E6741F /* SunriseSunsetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE3FDBCD215CF24400E6741F /* SunriseSunsetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3FDBDD215CF24400E6741F /* Build configuration list for PBXNativeTarget "SunriseSunsetUITests" */;
+			buildPhases = (
+				CE3FDBCA215CF24400E6741F /* Sources */,
+				CE3FDBCB215CF24400E6741F /* Frameworks */,
+				CE3FDBCC215CF24400E6741F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3FDBD0215CF24400E6741F /* PBXTargetDependency */,
+			);
+			name = SunriseSunsetUITests;
+			productName = SunriseSunsetUITests;
+			productReference = CE3FDBCE215CF24400E6741F /* SunriseSunsetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3FDBA3215CF24100E6741F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Chorniak inc.";
+				TargetAttributes = {
+					CE3FDBAA215CF24100E6741F = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					CE3FDBC2215CF24400E6741F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CE3FDBAA215CF24100E6741F;
+					};
+					CE3FDBCD215CF24400E6741F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CE3FDBAA215CF24100E6741F;
+					};
+				};
+			};
+			buildConfigurationList = CE3FDBA6215CF24100E6741F /* Build configuration list for PBXProject "SunriseSunset" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE3FDBA2215CF24100E6741F;
+			productRefGroup = CE3FDBAC215CF24100E6741F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3FDBAA215CF24100E6741F /* SunriseSunset */,
+				CE3FDBC2215CF24400E6741F /* SunriseSunsetTests */,
+				CE3FDBCD215CF24400E6741F /* SunriseSunsetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3FDBA9215CF24100E6741F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3FDBBB215CF24300E6741F /* LaunchScreen.storyboard in Resources */,
+				CEF9CFE7215E3B7900BFB8A3 /* Default-568h@2x.png in Resources */,
+				CE3FDBB8215CF24300E6741F /* Assets.xcassets in Resources */,
+				CE3FDBB6215CF24100E6741F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3FDBC1215CF24400E6741F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3FDBCC215CF24400E6741F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E06652905AED365BA0A1C4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunriseSunset-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B0905A362650E7149D8ADA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SunriseSunset/Pods-SunriseSunset-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunriseSunset/Pods-SunriseSunset-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3FDBA7215CF24100E6741F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3FDBB3215CF24100E6741F /* ViewController.m in Sources */,
+				CE3FDBBE215CF24300E6741F /* main.m in Sources */,
+				CE3FDBB0215CF24100E6741F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3FDBBF215CF24400E6741F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3FDBC8215CF24400E6741F /* SunriseSunsetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3FDBCA215CF24400E6741F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3FDBD3215CF24400E6741F /* SunriseSunsetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE3FDBC5215CF24400E6741F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE3FDBAA215CF24100E6741F /* SunriseSunset */;
+			targetProxy = CE3FDBC4215CF24400E6741F /* PBXContainerItemProxy */;
+		};
+		CE3FDBD0215CF24400E6741F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE3FDBAA215CF24100E6741F /* SunriseSunset */;
+			targetProxy = CE3FDBCF215CF24400E6741F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE3FDBB4215CF24100E6741F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3FDBB5215CF24100E6741F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE3FDBB9215CF24300E6741F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3FDBBA215CF24300E6741F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3FDBD5215CF24400E6741F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE3FDBD6215CF24400E6741F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3FDBD8215CF24400E6741F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD642B24FB83F118EBE13C58 /* Pods-SunriseSunset.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunriseSunset/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chorniak.SunriseSunset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE3FDBD9215CF24400E6741F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CD7E56ABC35EF172BE65B7 /* Pods-SunriseSunset.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunriseSunset/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chorniak.SunriseSunset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE3FDBDB215CF24400E6741F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunriseSunsetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BigNerdRanch.SunriseSunsetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunriseSunset.app/SunriseSunset";
+			};
+			name = Debug;
+		};
+		CE3FDBDC215CF24400E6741F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunriseSunsetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BigNerdRanch.SunriseSunsetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunriseSunset.app/SunriseSunset";
+			};
+			name = Release;
+		};
+		CE3FDBDE215CF24400E6741F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunriseSunsetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BigNerdRanch.SunriseSunsetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunriseSunset;
+			};
+			name = Debug;
+		};
+		CE3FDBDF215CF24400E6741F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunriseSunsetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BigNerdRanch.SunriseSunsetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunriseSunset;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3FDBA6215CF24100E6741F /* Build configuration list for PBXProject "SunriseSunset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3FDBD5215CF24400E6741F /* Debug */,
+				CE3FDBD6215CF24400E6741F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3FDBD7215CF24400E6741F /* Build configuration list for PBXNativeTarget "SunriseSunset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3FDBD8215CF24400E6741F /* Debug */,
+				CE3FDBD9215CF24400E6741F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3FDBDA215CF24400E6741F /* Build configuration list for PBXNativeTarget "SunriseSunsetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3FDBDB215CF24400E6741F /* Debug */,
+				CE3FDBDC215CF24400E6741F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3FDBDD215CF24400E6741F /* Build configuration list for PBXNativeTarget "SunriseSunsetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3FDBDE215CF24400E6741F /* Debug */,
+				CE3FDBDF215CF24400E6741F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3FDBA3215CF24100E6741F /* Project object */;
+}
